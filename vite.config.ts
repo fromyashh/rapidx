@@ -27,8 +27,9 @@ if (!basePath) {
 }
 
 export default defineConfig({
-  base: basePath,
-  plugins: [
+  base: '/rapidx/',
+  plugins: [react()],
+})
     react(),
     tailwindcss(),
     runtimeErrorOverlay(),
